@@ -1,0 +1,137 @@
+
+   /* __________________MISSION-2022____________________ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Domine', serif;
+    margin-left: 30px;
+}
+h1 {
+ font-size: 60px; 
+ color: #333333;
+  }
+p {
+    font-size: 25px; 
+    color: lightslategrey;
+}
+.container {
+    display: flex;
+    padding-right:100px;
+}
+.mission-des{
+    margin: 35px;
+    padding: 90px;
+}
+.orange-color {
+    color: #FFAD5A;
+}
+.mission-button{
+    color: white;
+    background-color:#FF5959;
+    padding:17px 35px;
+    margin: 10px;
+    border: none;
+    border-radius: 9px;
+}
+
+.mission-image img{
+/* height: 623px; */
+width: 500px;
+}
+
+/* ________________ */
+
+.goals{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.missions {
+    display: grid;
+     grid-template-columns:repeat(3, 1fr);
+     row-gap: 40px;
+     column-gap: 40px;
+     margin-top: 30px;
+}
+.mission{
+    width: 330px;
+    height: 515px;
+    background: #4f9da67a;
+    padding: 15px 15px 0px 15px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column; */
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 15px; 
+}
+.mission img{
+    width: 230px;
+     height: 215px;
+     margin-top: 15px;
+}
+/* _______ */
+
+.develop{
+    display: flex;
+    margin-top: 80px;
+    /* margin-bottom: 80px; */
+    padding: 80px;
+    background-repeat: no-repeat;
+    background-size: 300px;
+
+}
+.develop-img img{
+    width: 450px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.develop-2{
+    display: flex;
+    margin-top: 80px;
+    /* margin-bottom: 80px; */
+    padding: 80px;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: right; 
+}
+.corona-img img{
+    width: 300px;
+    padding-left: 100px;
+    /* margin-right: 80px; */
+}
+.corona {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 80px; */
+}
+.go-corona{
+    display: grid;
+     grid-template-columns:repeat(2, 1fr);
+     padding-right: 50px;
+}
+footer{
+    color:gray;
+    margin-bottom: 30px;
+}
+.mission-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:rgba(0, 0, 0, 0.87);
+}
+.white{
+    color:white;
+}
+.malta-color{
+    color: #FF5959;
+}
+
+
+

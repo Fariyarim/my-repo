@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* Football player style  */
+body{
+   font-family: poppins, sans-serif;
+}
+main{
+    background-color:#FFFFFF ;
+}
+
+ .container{ 
+    display: flex;
+    background-color: rgb(4, 4, 158);
+    /* width: 100%; */
+    padding-left: 100px;
+}
+
+.cop-america img{
+    width: 557px;
+    height:434px;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.copa-america h1{
+    font-size: 64px;
+    color: white;
+    width: 485px;
+    height: 230px;
+}
+.icon-1{
+    margin-left: 6px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.button {
+    background-color: magenta; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  /* ----- Football Names----- */ 
+  .football{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+    
+  }
+  .players{
+     display: grid;
+     grid-template-columns:repeat(3, 1fr);
+     row-gap: 40px;
+     column-gap: 40px;
+     margin-top: 50px;
+     }
+ 
+.player img{
+     width: 300px;
+     height: 256px;
+     margin-top: 15px;
+ }
+.player{
+    width: 330px;
+    height: 515px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+   }
+  .position{
+      padding-left: 8px;
+      padding-right: 8px;
+      color: lightslategray;
+     }
+     .color{
+       color: #E02C6D;
+
+       font-size: 48px;
+       width: 469px;
+       height: 120px;
+       
+     }
+     .match img{
+         width: 567px;
+         height:427px ;
+         padding-left: 200px;
+     }
+    .foot-ball{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 50px;
+    }
+    .highlight{
+        width: 469px;
+        height: 309px;
+        /* left: 182px; */
+        padding: 30px;
+    }
+    .last-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+        padding-top: 80px;
+
+    }
+    .logo-logo img{
+        width:487px;
+       
+    } 
+    .icon{
+        color: lightslategrey;
+        padding-bottom: 15px;
+        padding: 10px;
+    }
+    .fa-instagram{
+        background-color: lightgray;
+        padding: 6px;
+        border-radius: 12px;
+       margin: 7px;
+    }
+    .fa-dribbble{
+        background-color: lightgray;
+        padding: 6px;
+        border-radius: 12px;
+        margin: 7px;
+    }
+    .fa-twitter{
+        background-color: lightgray;
+        padding: 6px;
+        border-radius: 12px;
+        margin: 7px;
+    }
+    .fa-youtube{
+        background-color: lightgray;
+        padding: 6px;
+        border-radius: 12px;
+        margin: 7px;
+    }
+
+
+
+    
+/*------ Media Queries ------*/
+/*------ Mobile Devices------- */
+@media only screen and (max-width:688px) {
+    main{
+        width: 100%;
+    }
+   
+  .container{
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+      width: 100%;
+  }
+  .copa-america{
+      margin-right: 144px;
+  }
+  h1 {
+    font-size: 44px;
+    color: white;
+    width: 313px;
+    height: 150px;
+} 
+.players{
+     
+     grid-template-columns:repeat(1, 1fr);
+  
+     }
+  .cop-america img{
+      
+    width: 315px;
+    height: 292px;
+    padding-left: 0px;
+    margin-right: 173px; 
+   
+}
+.logo-logo img{
+    width: 250px;
+}
+.foot-ball{
+  
+    flex-direction: column;
+}
+.highlight {
+    width: 382px;
+    height: 311px;
+    padding: 30px;
+}
+.color{
+    font-size: 38px;
+}
+.match img{
+    margin-top: 50px;
+    width: 420px;
+    height: 309px;
+    padding-left: 0px;
+}
+
+.copa-america h1 {
+    font-size: 33px;
+    color: white;
+    width: 233px;
+    height: 208px;
+}
+
+
+.football{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+    
+  }
+
+
+
+
+
+
+
+}
